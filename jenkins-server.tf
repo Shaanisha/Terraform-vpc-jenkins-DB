@@ -14,7 +14,7 @@ data "aws_ami" "latest" {     # aws_ami helps to get AMI ID of the os
         name = "name"
         values = ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
     }
-     owners = ["099720109477"]  # this is the owner of the OS, which can be found in AMI section in EC2
+     owners = ["177476993570"]  # this is the owner of the OS, which can be found in AMI section in EC2
 }
 
 
